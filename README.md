@@ -1,7 +1,7 @@
 # location-weather
 
 # Manual change
-You need to replace [domain] with API dommain
+You need to replace [domain] with API domain in src/components/FetchWeatherData.vue
 
 ## Project setup
 ```
