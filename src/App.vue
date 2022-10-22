@@ -1,10 +1,22 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <app-header />
+  <weather-data />
+  <app-footer />
 </template>
+
+<script>
+import AppHeader from '@/components/AppHeader.vue'
+import WeatherData from '@/components/FetchWeatherData.vue'
+import AppFooter from '@/components/AppFooter.vue'
+
+export default {
+  components: {
+    AppHeader,
+    WeatherData,
+    AppFooter
+  }
+}
+</script>
 
 <style lang="scss">
 #app {
