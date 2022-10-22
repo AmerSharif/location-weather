@@ -1,5 +1,8 @@
 # location-weather
 
+# Manual change
+You need to replace [domain] with API dommain
+
 ## Project setup
 ```
 npm install
